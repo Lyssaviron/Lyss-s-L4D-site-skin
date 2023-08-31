@@ -566,7 +566,8 @@ text-transform: uppercase;
 }
 
 #chapter_index,
-#chapter_index:focus
+#chapter_index:focus,
+.work.meta.group,
 p select,
 p.kudos {
 background-color: #000000C4;
