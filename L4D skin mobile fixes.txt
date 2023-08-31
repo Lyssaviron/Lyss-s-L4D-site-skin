@@ -1,0 +1,313 @@
+//*
+THIS MUST BE INSTALLED AS A PARENT SKIN FIRST IF YOU WILL BE USING AO3 FROM MOBILE AT ALL!
+Create and title a site skin with something recognizable, paste in all of the code here.
+In ADVANCED OPTIONS select the box for only screen and (max-width: 42em).
+Then create a second skin for the site skin, under the option for parent skins, select the mobile fix skin to add.
+*// 
+
+/*Header*/
+#header .heading {
+margin-left: auto !important;
+margin-right: auto;
+display: block;
+float: none;
+font-size: .9em;
+padding: 0;
+text-align: center;
+}
+
+#header li {
+display: inline-block;
+}
+
+#header .menu,
+#header .dropdown:hover .current + .menu {
+width: 100% !important;
+left: 0 !important;
+right: 0 !important;
+position: fixed;
+}
+
+#header .primary .menu a {
+padding: 0.429em 0.75em;
+}
+
+/*User header and login*/
+#header .user a {
+margin-bottom: .25em;
+}
+
+#login,
+#greeting {
+margin-right: auto;
+margin-left: auto;
+float: none;
+margin-top: 0px !important;
+}
+
+#small_login {
+width: 100% !important;
+left: 0 !important;
+right: 0 !important;
+position: fixed;
+}
+
+#small_login {
+width: auto;
+}
+
+/*Footer*/
+#footer .module {
+max-width: 40%;
+margin: auto;
+}
+
+#footer .heading {
+font-size: 1.3em !important;
+}
+
+/*Home page*/
+.splash .blurb {
+width: 80%;
+right: 4%;
+}
+
+.splash .blurb .module {
+width: 108% !important;
+right: 9% !important;
+}
+
+.splash .blurb .user.module {
+width: 104.5% !important;
+}
+
+/*Profiles*/
+#dashboard,
+#dashboard.own {
+border-bottom: 0px;
+border-top: 0px;
+border: 0px;
+}
+
+#dashboard ul {
+display: inline-block;
+}
+
+.home .header ul.actions {
+margin-top: 1em;
+}
+
+.own h5.fandoms.heading {
+margin-top: .75em;
+}
+
+#main.works-index a.tag {
+background-color: #000000C4;
+}
+
+/*Bookmarks*/
+.user.module.group {
+width: 115% !important;
+left: -7%;
+}
+
+/*Fic appearance*/
+#workskin {
+width: 105%;
+right: 3.5%;
+}
+
+.collection blockquote.userstuff {
+width: 100% !important;
+}
+
+p.kudos {
+background: none;
+padding: 0;
+min-height: 0;
+word-break: break-word;
+}
+
+p.kudos::before {
+content: "Kudos:";
+font-weight: bolder;
+}
+
+div.preface,
+.preface.group blockquote.userstuff {
+margin: 0;
+}
+
+.userstuff ul {
+padding: 0;
+}
+
+.userstuff li, .userstuff ol ul li {
+margin-inline-start: 1em;
+}
+
+.chapter .secondary, .download .secondary {
+right: 0;
+margin: 10px;
+}
+
+.chapter .secondary {
+top: 648px;
+}
+
+.download .secondary {
+top: 765px;
+}
+
+/*Comments field*/
+.comment div.icon::after {
+left: 0px !important;
+top: 55px !important;
+max-width: 120% !important;
+font-size: .5em;
+}
+
+/*Inbox*/
+.inbox li.comment {
+background-size: auto, 70px 100px, cover !important;
+background-position: 60% 85px, left top, center !important;
+}
+
+.inbox .comment .heading.byline {
+float: right;
+}
+
+.inbox blockquote.userstuff {
+margin-top: 4.5em !important;
+}
+
+/*Blurbs*/
+li.blurb {
+width: 80%;
+right: 4%;
+}
+
+.blurb .module {
+width: 107.5%;
+right: 9.5% !important;
+}
+
+.blurb .datetime {
+position: initial;
+}
+
+.blurb h5.fandoms.heading {
+padding-top: 10px;
+}
+
+.blurb ul.required-tags {
+position: initial;
+top: initial;
+display: flex;
+}
+
+.blurb ul.required-tags li + li + li, .blurb ul.required-tags li + li + li + li {
+position: initial;
+left: initial;
+}
+
+.blurb ul.required-tags li {
+padding-right: 6px;
+}
+
+/*Browse pages*/
+.media .listbox {
+width: 100%;
+}
+
+/*Help and guides*/
+#symbols-key h4 {
+font-size: 1.25em !important;
+}
+
+#modal, #modal.tall {
+width: 100%;
+}
+
+#modal .userstuff dl {
+width: 120% !important;
+right: 19%;
+}
+
+#symbols-key > dt > img{
+position: relative;
+left: 38%;
+}
+
+
+/*Pages*/
+ol.pagination {
+max-width: 90%;
+}
+
+/*Post works and drafts*/
+#work-form {
+width: 110%;
+position: relative;
+right: 4.5%;
+}
+
+#work_title,
+#work_fandom_autocomplete {
+position: relative;
+}
+
+#work_fandom_autocomplete {
+width: 115%;
+}
+
+#work_title {
+width: 103%;
+right: 6.5%;
+}
+
+#work_fandom_autocomplete {
+right: 15%;
+}
+
+.works-new.region ul.navigation.actions li a {
+font-size: .9em;
+left: .7em;
+}
+
+/*General text*/
+#footer .heading,
+.comment h4.byline,
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type,
+.blurb dl.tags dd,
+dl.meta dd, h4.heading {
+overflow-wrap: break-word;
+}
+
+/*Fixes*/
+#header .user,
+#header li {
+float: initial;
+}
+
+.javascript,
+.filters dt {
+background-color: transparent;
+}
+
+li.showme a.actions, dl.stats dd {
+white-space: normal;
+height: initial;
+}
+
+#ui-datepicker-div {
+top: 522px !important;
+}
+
+.assigned.module th[scope=col],
+thead th[scope=col] {
+max-width: 18px;
+overflow: hidden;
+}

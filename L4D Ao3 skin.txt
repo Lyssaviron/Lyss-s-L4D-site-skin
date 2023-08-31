@@ -1,0 +1,2619 @@
+//*
+INSTALL THIS SKIN SECOND. Begin with following instructions to create the mobile fix skin.
+THEN create a second site skin and paste in all of the code here.
+Select the option to add a parent skin, add the mobile fix skin as the parent, and then save.
+Then the skin will be ready to use. Under your site skins, simply select "use".
+If you wish to use the fonts this skin was designed for you must also download and install the fonts in the fonts folder, but it is functional without.
+*// 
+
+/*Site wrapping scheme*/
+#outer.wrapper,
+.wrapper,
+.announcement input[type=submit],
+.announcement .action {
+background-color: #000000C4;
+}
+
+#inner.wrapper {
+background-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1131439959656648776/background01_widescreen.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+#outer.wrapper,
+#inner-wrapper {
+font-size: 1.1em;
+}
+
+/*Logo*/
+#header h1.heading span,
+#header .logo,
+#header .heading sup {
+display: none;
+}
+
+#header h1.heading a::before {
+content: "Archive of Our Gnome";
+}
+
+#header .heading a {
+color:#900;
+font-size:1.714em;
+line-height:1.75em;
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1143968434577748028/4_splash_transparent_no_number.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: 52%;
+}
+
+
+#header h1.heading::before {
+display: inline-block;
+width: 35px;
+max-width: 80%;
+height: 40px;
+content: " ";
+background-image: url(https://static.wikia.nocookie.net/left4dead/images/7/77/Gnome_model.png);
+background-size: 35px 43px;
+vertical-align: sub;
+}
+
+#header .heading {
+padding: .375em .375em .375em .5em;
+}
+
+/*Header bar*/
+#header,
+#header .menu {
+font-size: 1.05em;
+}
+
+#header h1 {
+font-size: 1.25em;
+}
+
+#header,
+#header .menu,
+#header .primary a {
+font-family: future rot,stubble,"trade gothic",verdana,sans-serif;
+}
+
+#header .heading a,
+#header .primary .menu a,
+#header .primary .menu .current {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+#header .dropdown:hover .current + .menu,
+#header .dropdown:hover a,
+#header .primary .menu a,
+#header .primary .menu .current,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+#header .actions a:hover,
+#header .actions a:focus {
+background-color: black;
+}
+
+#header .menu {
+background-color: #A81A19;
+}
+
+#header {
+margin-bottom: 0;
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1141654984279216198/image.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+#header .menu {
+background-image: none;
+filter: none;
+}
+
+#header .dropdown .menu li a,
+#header .dropdown .menu a:hover {
+color: #DDDDDDFF !important;
+}
+
+#header .heading a,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown .menu li a:hover,
+#header .dropdown:hover .current + .menu,
+#header .dropdown:hover a,
+#header .primary .menu a:hover,
+#header .primary .menu .current,
+#header .dropdown .menu a:focus {
+color: white !important;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+#header .actions a:hover,
+#header .actions a:focus {
+border: 2px solid white;
+box-shadow: 0 0 3px white;
+text-shadow: 0 0 2px white;
+}
+
+#site_search {
+color: white;
+background-color: black;
+text-shadow: none;
+}
+
+/*Site footer*/
+#footer li,
+#chapter_index::before {
+font-size: 1.1em;
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+#footer .heading {
+font-size: 1.5em;
+}
+
+#footer .heading,
+#footer,
+#footer a:hover {
+color: white;
+}
+
+#footer a {
+color: #C0C0C0FF;
+}
+
+#footer {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1136867909231185973/dirtytear.png);
+background-repeat: no-repeat;
+background-size: 100% 40%;
+}
+
+/*User header and login*/
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current {
+color: white;
+}
+
+#small_login {
+background-image: none;
+filter: none;
+}
+
+#header .user {
+font-size: 1.1em;
+}
+
+#header .user a,
+#greeting .menu a,
+#greeting .menu li a {
+color: #DDDDDDFF;
+}
+
+#header .user a {
+border: 2px solid #DDDDDDFF;
+border-radius: 5px;
+}
+
+#header .user a:hover,
+#greeting .menu li:hover {
+color: white;
+border: 2px solid white;
+box-shadow: 0 0 2px white;
+text-shadow: 0 0 2px white;
+}
+
+#header .user a,
+#greeting .menu li,
+#greeting .menu a,
+#greeting .menu a:hover {
+background-color: black;
+}
+
+#small_login {
+background-color: #A81A19;
+}
+
+#greeting img.icon {
+height:2.15em;
+width:2.15em;
+}
+
+/*Home page*/
+li.post.group {
+background-color: rgb(104,116,104);
+border-radius: 5px;
+}
+
+.splash .module h3 {
+font-family: stubble, "trade gothic", Verdana, sans-serif;
+}
+
+.splash .module h3,
+div.favorite.module .heading {
+color: white;
+}
+
+.splash .favorite li:nth-of-type(odd) a,
+.splash .favorite li:nth-of-type(even) a {
+color: #DDDDDDFF;
+}
+
+#main h3.heading,
+div.favorite.module .heading,
+.splash .latest.tweets.module {
+background-color: #000000C4;
+}
+
+#main h3.heading {
+font-size: 1.5em;
+}
+
+.splash .favorite li:nth-of-type(odd) a,
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+.splash .favorite li:nth-of-type(even) a{
+background-color: black;
+}
+
+.splash .favorite li:nth-of-type(odd) a,
+.splash .favorite li:nth-of-type(even) a {
+border: 2px solid red;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+box-shadow: 0 0 3px white;
+text-shadow: 0 0 2px white;
+}
+
+.reading h4.viewed {
+background-color: transparent;
+}
+
+.splash .link a {
+font-size: .75em;
+}
+
+.splash .blurb .module {
+right: 2.5%;
+}
+
+/*News*/
+.news .userstuff {
+font-size: 1em;
+}
+
+.splash .news .meta {
+font-family: stubble, "trade gothic", Verdana, sans-serif;
+}
+
+.news li.post.group {
+background-color: #000000C4;
+}
+
+.news li.post.group,
+.news h4.heading a,
+.news.home h2.heading,
+.news.home h2.heading a,
+.news h3.heading a {
+border-bottom: none;
+}
+
+.news h3.heading a {
+color: #ff0;
+font-family: verdana,sans-serif;
+}
+
+.news.home h2.heading a:hover,
+.news h3.heading a:hover {
+color: white;
+border-bottom: 1px solid white;
+text-shadow: 0 0 2px white;
+}
+
+.splash .news .meta {
+text-align: center;
+}
+
+.news.home h2.heading,
+.news h3.heading {
+text-align: left;
+}
+
+.news h3.heading {
+padding: .1em .2em;
+border-radius: 5px;
+}
+
+.news .title::before,
+.news.home h2.heading::before {
+content: "☣︎";
+margin-right: .25em;
+font-weight: bold;
+}
+
+.news h4.heading a {
+font-family: verdana, sans-serif;
+color: #FF0;
+}
+
+/*Profiles*/
+#dashboard a,
+#dashboard span {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+color: #DDDDDDFF;
+}
+
+.user h3.heading,
+#dashboard .current,
+#dashboard a:hover,
+#dashboard a:focus {
+color: white;
+}
+
+#dashboard li a,
+#dashboard .current,
+#dashboard a:hover {
+background-color: black;
+}
+
+#main h2.heading,
+.bio.module p {
+background-color: #000000C4;
+}
+
+.user .listbox.group {
+background-image:url(https://cdn.discordapp.com/attachments/1136352033574768640/1142328098705113128/image.png);
+background-size: 100% auto;
+background-repeat: repeat-y;
+}
+
+.user h3.heading,
+.statistics .listbox .heading {
+background-color: #A81A1AFF !important;
+}
+
+.user h3.heading {
+display: block;
+}
+
+#dashboard a {
+border: 2px solid #DDDDDDFF;
+}
+
+#dashboard .secondary {
+box-shadow: none;
+}
+
+#dashboard .current,
+#dashboard a:hover,
+#dashboard a:focus {
+text-shadow: 0 0 2px white;
+}
+
+#dashboard .current,
+#dashboard a:hover,
+#dashboard a:focus {
+border: 2px solid white;
+box-shadow: 0 0 3px white;
+}
+
+#dashboard a {
+margin-bottom: .25em;
+margin-top: .25em;
+}
+
+/*Bookmarks*/
+#bookmark_form_placement form {
+background-color: #000000C4;
+}
+
+#user-bookmarks {
+border-bottom: 2px solid red;
+}
+
+#user-bookmarks h3.heading {
+display: block !important;
+border-bottom: 1px solid red;
+}
+
+.bookmark .user .meta {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+}
+
+#bookmark_form_placement form {
+color: white;
+border-color: red;
+border-radius: 5px;
+}
+
+.bookmark .status span {
+margin-top: .35em;
+margin-right: .15em;
+}
+
+.bookmark span.count {
+background: #404040FF !important;
+}
+
+.bookmark .count a {
+bottom: .1em;
+position: absolute;
+color: #FF9E47;
+}
+
+.bookmark .user .byline {
+margin-right:auto;
+margin-left: auto;
+}
+
+.bookmark .user {
+left: .8%;
+}
+
+/*Collections*/
+.collection blockquote.userstuff {
+font-size: 1.1em;
+}
+
+#collection-form form {
+border-color: rgb(192,33,0);
+background-color: rgb(104,116,104);
+border-radius: 5px;
+}
+
+/*Inbox*/
+.inbox li.comment {
+background-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1139437695945416754/image.png), url(https://cdn.discordapp.com/attachments/1136352033574768640/1139082835454611546/s_panel_background.png), url(https://cdn.discordapp.com/attachments/1136352033574768640/1139071337302851594/image.png);
+background-size: auto, 210px 100px, cover;
+background-repeat: no-repeat;
+background-position: bottom, left top, center;
+}
+
+.inbox blockquote.userstuff {
+margin-top: 3em;
+}
+
+/*User statistics*/
+#main.stats-index h3.heading {
+display: inline-block;
+padding: .25em;
+border-radius: 5px;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect, #stat_chart  svg g:nth-of-type(2) > g rect:last-of-type {
+filter: hue-rotate(80deg);
+opacity: 75%;
+}
+
+/*Subscriptions*/
+dl.index dd {
+background:#A81A1AFF;
+}
+
+dl.index dt {
+width:fit-content;
+float:none;
+border:none;
+background-color: #000000C4;
+padding: .5em;
+border-radius: 5px;
+}
+
+dl.index dt {
+width:fit-content;
+float:none;
+background-color: #000000C4;
+padding: .5em;
+border-radius: 5px;
+}
+
+dl.index dt a {
+border: none;
+box-shadow: none;
+}
+
+dl.index dt a:hover {
+border-bottom: 1px solid white;
+}
+
+/*Fic appearance*/
+#workskin,
+p select,
+#chapter_index {
+font-size: 1.05em;
+}
+
+p.kudos a {
+font-size: 1.1em;
+}
+
+h3.title {
+font-size:1.5em;
+}
+
+#workskin,
+#workskin .preface.group h3.byline.heading a:hover,
+h3.title a:hover,
+p select:hover,
+#workskin .preface.group h3.byline.heading a::before,
+#chapter_index:hover::before {
+color: white;
+}
+
+#workskin .preface.group h3.byline.heading a,
+p select,
+#workskin .preface.group h3.byline.heading a::before,
+#chapter_index::before {
+font-family: stubble, "trade gothic", Verdana, sans-serif;
+color: #C0C0C0FF;
+}
+
+h3.title a,
+#workskin .preface.group h3.byline.heading a {
+text-transform: uppercase;
+}
+
+#chapter_index,
+#chapter_index:focus
+p select,
+p.kudos {
+background-color: #000000C4;
+}
+
+#workskin .module {
+background-color: #000000DC;
+}
+
+h3.title a,
+#workskin .preface.group h3.byline.heading a,
+p select,
+#workskin .preface.group h3.byline.heading a::before,
+#chapter_index::before,
+p.kudos a {
+border: none;
+box-shadow: none;
+}
+
+#workskin .title.heading,
+#workskin div.preface {
+margin: auto;
+}
+
+h3.title a:hover,
+#workskin .preface.group h3.byline.heading a:hover,
+#chapter_index:hover::before,
+p.kudos a:hover {
+text-shadow: 0 0 2px white;
+}
+
+#workskin .title.heading {
+font-size: 2.25em;
+font-family: "future rot",stubble,"trade gothic",verdana,sans-serif;
+letter-spacing: .1em;
+border: 20px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139996491759501372/campaign_frame.png) stretch 40;
+width: fit-content;
+padding: 1.5%;
+}
+
+#workskin div.preface {
+border: 10px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139798602949070908/image.png) stretch 30;
+background-color: black;
+max-width: 95%;
+margin-top: 2%;
+padding-top: 2%;
+}
+
+#workskin .preface.group h3.byline.heading a::before {
+content: "a work by";
+font-size: .6em;
+display: block;
+margin-bottom: .3em;
+}
+
+#workskin .preface.group h3.byline.heading a {
+font-size: 1.25em;
+letter-spacing: .05em;
+top: -10em;
+}
+
+#chapter_index::before {
+content: "CHAPTER";
+position: relative;
+margin-right: 1em;
+}
+
+#workskin .userstuff.module {
+margin-top: 3%;
+}
+
+.download .secondary {
+background-color: #A81A1AFF;
+}
+
+p.kudos {
+word-spacing: .1em;
+}
+
+p.kudos a:hover,
+h3.title a:hover {
+border-bottom: 1px solid white;
+}
+
+
+/*Comments field*/
+.comment .heading a,
+.comment .heading a:visited,
+.comment .heading a:hover,
+.comment div.icon::after {
+font-family: Stubble, "trade gothic", Verdana, sans-serif;
+}
+
+.comment blockquote,
+.comment textarea,
+.comment textarea:focus {
+font-family: verdana, tahoma, sans-serif;
+}
+
+.comment h4.byline,
+.comment .heading .datetime,
+.comment .heading abbr,
+.comment .heading a:link {
+font-family: moinho,stubble,verdana,sans-serif;
+}
+
+.comment blockquote a,
+.comment .heading a,
+.comment,
+.comment .userstuff p {
+color: black;
+}
+
+.comment .heading .datetime,
+.comment h4.byline {
+text-align: center;
+}
+
+.comment h4.byline,
+.comment div.icon::after,
+.comment .icon .visitor {
+display: block;
+}
+
+.comment h4.byline,
+.comment blockquote {
+position: relative;
+}
+
+.comment div.icon,
+.comment img.icon,
+.comment div.icon::after {
+position: absolute;
+}
+
+div.comment,
+.icon a,
+.icon a:hover,
+.thread .even,
+.thread .odd {
+border: none;
+}
+
+li.comment,
+.comment blockquote {
+border-radius: 5px;
+}
+
+.icon a,
+.icon a:hover {
+box-shadow: none;
+}
+
+.comment .userstuff {
+font-size: 1.1em;
+}
+
+.comment .heading .datetime {
+font-size: 70%;
+padding: .2em;
+}
+
+.icon {
+height: 80px;
+width: 80px;
+}
+
+.comment h4.byline {
+padding: .25em;
+width: fit-content;
+max-width: 60%;
+margin: auto;
+}
+
+.abbreviated h4.byline {
+padding-left: .25em;
+}
+
+.comment img.icon {
+filter: grayscale(100%);
+border: 1.5px solid black;
+left: -1px;
+top: -.5px;
+}
+
+.comment div.icon {
+width: 73px;
+max-width: 12%;
+top: 30px;
+border:10px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1138354240268554270/image.png) stretch 20;
+}
+
+.comment div.icon::after {
+content: '+100';
+top:40px;
+left:82px;
+color: #00C800FF;
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1138348662527889409/health_bar_no_icon.png);
+background-size: contain;
+background-position: 0px 3px;
+background-repeat: no-repeat;
+width: 116px;
+max-width: 159%;
+height: 52px;
+}
+
+.comment .icon .visitor {
+background: url(/images/imageset.png) no-repeat -10px -85px;
+}
+
+.comment blockquote {
+margin-left: 16%;
+top: 10px;
+padding: 2px;
+line-height: 1.5;
+}
+
+.thread .even,
+.thread .odd {
+font-size:100%;
+margin-top:30px;
+}
+
+.thread .odd {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139082835454611546/s_panel_background.png),url(https://cdn.discordapp.com/attachments/1136352033574768640/1139336110141612193/image.png),url(https://cdn.discordapp.com/attachments/1136352033574768640/1139329945668165693/image.png),url(https://cdn.discordapp.com/attachments/991873892903833620/1139319319046656062/image.png),url(https://cdn.discordapp.com/attachments/1136352033574768640/1139071337302851594/image.png);
+background-position:left top, 0 600px, right top, 0 100px, center;
+background-size: 210px 100px, 15%, 8%, 15%, contain;
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+background-origin: content-box, content-box, content-box, content-box, border-box;
+}
+
+.thread .even {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139082835454611546/s_panel_background.png),url(https://cdn.discordapp.com/attachments/1136352033574768640/1139334880254234704/image.png),url(https://cdn.discordapp.com/attachments/1136352033574768640/1139330397700886678/image.png),url(https://cdn.discordapp.com/attachments/991873892903833620/1139087532584341564/image.png),url(https://cdn.discordapp.com/attachments/1136352033574768640/1139071337302851594/image.png);
+background-position:left top, 0 600px, right top, 0 100px, center;
+background-size: 210px 100px, 15%, 5%, 15%, contain;
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+background-origin:content-box, content-box, content-box, content-box, border-box;
+}
+
+.comment fieldset {
+color: white;
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139342189453918358/checkpoint01_red.png);
+background-repeat: no-repeat;
+background-position: top;
+background-size: 10%;
+}
+
+.comment textarea,
+.comment textarea:focus {
+background-color: ivory;
+color: black !important;
+}
+
+/*Post works and drafts*/
+fieldset.warnings li {
+color: #DDDDDDFF;
+}
+
+fieldset.warnings li:hover,
+dd.category fieldset li:hover {
+color: white;
+}
+
+fieldset.warnings {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1140770321872457849/s_panel_background_glow.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-origin: border-box;
+background-color: black;
+border: none;
+}
+
+select#work_rating_string,
+select#work_search_sort_column {
+background-image: 
+url(https://cdn.discordapp.com/attachments/991873892903833620/1129775623397703731/ui_bloodbutton_focus.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+select#work_rating_string {
+background-size: 100% 100%;
+}
+
+.draft {
+background-color: rgb(104,116,104);
+border-radius: 5px;
+}
+
+.draft,
+.draft .wrapper {
+border-color: rgb(192,33,0);
+}
+
+/*Browse pages*/
+.media h3.heading a,
+.fandoms-index p,
+.tags-index p,
+.bookmarks-index > p,
+.works-index > p {
+background-color: #000000C4;
+}
+
+.media h3.heading,
+.media .listbox,
+.alphabet .listbox {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1142328098705113128/image.png);
+background-repeat: repeat-y;
+background-size: 100% auto;
+}
+
+.media h3.heading a {
+color: #DDDDDDFF;
+box-shadow: none;
+border: none;
+padding: .1em .2em;
+border-radius: 5px;
+}
+
+.media h3.heading a:visited {
+color: red;
+}
+
+.media h3.heading a:hover {
+color: white;
+text-decoration: underline white 1px;
+}
+
+.alphabet .listbox .heading {
+background-color: transparent !important;
+}
+
+/*Tag and fandom page*/
+a.tag,
+a.tag:visited,
+a.tag:link {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+.listbox .heading a.tag:visited:hover,
+a.tag:hover,
+a.tag:visited:hover,
+a:visited:hover,
+a.tag:link:hover,
+li.warnings a.tag:hover,
+a.tag,
+a.tag:visited,
+a.tag:link,
+li .fandoms .tag {
+color: white;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link,
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+a.tag:visited:hover,
+a.tag:link:hover,
+li.warnings a.tag:hover {
+background-color: black;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link,
+li.warnings a.tag,
+.works-index h2.heading {
+border-radius: 5px;
+}
+
+h2.heading .tag,
+h2.heading .tag:hover {
+background: none;
+border: none !important;
+box-shadow: none !important;
+}
+
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+a.tag:visited:hover,
+a:visited:hover,
+a.tag:link:hover {
+text-shadow: 0 0 2px white;
+box-shadow: 0 0 3px white;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link,
+li.warnings a.tag,
+.fandom.tags li a {
+display: inline-block;
+padding: 3px 7px;
+margin: 4px 0px;
+border: 2px solid red;
+}
+
+li.warnings a.tag::before {
+content: "⚠";
+color: yellow;
+margin-right: .4em;
+}
+
+.favorite a.tag {
+border: none;
+}
+
+.commas li:after {
+content: "";
+}
+
+li .fandoms .tag {
+display:contents;
+}
+
+/*Subtitle colored character tags!*/
+a.tag[href*="/bill%20(left%204%20dead)" i] {
+color: rgb(71,117,56);
+}
+
+a.tag[href*="/bill%20overbeck" i] {
+color: rgb(71,117,56);
+}
+
+a.tag[href*="/william%20overbeck" i] {
+color: rgb(71,117,56);
+}
+
+a.tag[href*="/louis%20(left%204%20dead)" i] {
+color: rgb(225,225,225);
+}
+
+a.tag[href*="/francis%20(left%204%20dead)" i] {
+color: rgb(130,147,148);
+}
+
+a.tag[href*="/zoey%20(left%204%20dead)" i] {
+color: rgb(174,91,91);
+}
+
+a.tag[href*="/coach%20(left%204%20dead)" i] {
+color: rgb(112,75,1250);
+}
+
+a.tag[href*="/ellis%20(left%204%20dead)" i] {
+color: rgb(223,200,143);
+}
+
+a.tag[href*="/nick%20(left%204%20dead)" i] {
+color: rgb(64,100,166);
+}
+
+a.tag[href*="/rochelle%20(left%204%20dead)" i] {
+color: rgb(168,71,96);
+}
+
+a.tag[href*="/boomer%20(left%204%20dead)" i] {
+color: rgb(166,115,115);
+}
+
+a.tag[href*="/charger%20(left%204%20dead)" i] {
+color: rgb(91,130,152);
+}
+
+a.tag[href*="/hunter%20(left%204%20dead)" i] {
+color: rgb(131,104,84);
+}
+
+a.tag[href*="/jockey%20(left%204%20dead)" i] {
+color: rgb(217,205,180);
+}
+
+a.tag[href*="/smoker%20(left%204%20dead)" i] {
+color: rgb(114,166,123);
+}
+
+a.tag[href*="/spitter%20(left%204%20dead)" i]:not(a.tag[href*=“spitter*s*” i]) {
+color: rgb(192,197,43);
+}
+
+a.tag[href*="/tank%20(left%204%20dead)" i]:not(a.tag[href*=“tank*s*” i]) {
+color: rgb(159,166,115);
+}
+
+a.tag[href*="/witch%20(left%204%20dead)" i]:not(a.tag[href*=“witch*s*” i]) {
+color: rgb(166,115,164);
+}
+
+/*Blurbs*/
+.blurb .header h4.heading a:first-of-type {
+font-size: 1.3em;
+}
+
+.blurb dl.stats,
+.blurb datetime {
+font-size: 1.1em;
+}
+
+.blurb .userstuff,
+.blurb blockquote,
+.blurb a {
+font-family: "trade gothic",verdana,sans-serif;
+font-size: 1.05em;
+}
+
+.blurb .header h4.heading a {
+font-family: future rot,stubble,verdana,sans-serif;
+}
+
+#main li.blurb,
+.blurb .datetime,
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+h5.fandoms.heading,
+.blurb .module {
+text-align: center;
+}
+
+#main li.blurb,
+.blurb .header h4.heading a,
+blurb .header .heading,
+h5.fandoms.heading,
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type {
+color: white;
+}
+
+#main li.blurb,
+.blurb .module,
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type,
+blockquote.userstuff.summary {
+background-color: #000000C4;
+}
+
+#main li.blurb,
+.blurb .header .heading,
+.blurb .header h4.heading a:first-of-type,
+.blurb .header h4.heading a:nth-of-type(2),
+.blurb ul.required-tags {
+display: block;
+}
+
+.blurb dl.stats,
+.blurb .module {
+position: relative;
+}
+
+.blurb ul.required-tags,
+.blurb ul.required-tags li a:hover {
+position: absolute;
+}
+
+.blurb .header h4.heading,
+.blurb .header h4.heading a:first-of-type,
+.blurb .header h4.heading a:nth-of-type(2) {
+margin: auto;
+}
+
+.blurb .header h4.heading a:first-of-type,
+.blurb .header h4.heading a:nth-of-type(2),
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type {
+width: fit-content;
+}
+
+h5.fandoms.heading,
+.stats dd,
+.stats dd a {
+border: none;
+}
+
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type {
+border-radius: 5px;
+}
+
+.blurb p.status,
+#main li.blurb {
+background-repeat: no-repeat;
+}
+
+#main li.blurb {
+background-size: cover;
+}
+
+.stats dd,
+.stats dd a {
+box-shadow: none;
+}
+
+.blurb .header h4.heading {
+max-width: 70%;
+}
+
+.blurb p.status .AO3E--icon {
+height: 25px;
+visibility: hidden;
+}
+
+.blurb p.status.AO3E {
+background-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1131102839213654078/image.png);
+background-size: contain;
+margin-top: .8em;
+}
+
+.blurb .header h4.heading {
+max-width:70%;
+margin-top: .25em;
+}
+
+#main li.blurb {
+margin-top: 5%;
+margin-bottom: 10%;
+margin-left: 4%;
+margin-right: 4%;
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1137944308079657080/hill_1920x1200.jpg);
+background-position: center;
+border: 20px solid;
+border-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1131606324174667836/poster_border_transparent_l4d2_rotated.png) stretch 30;
+}
+ 
+.blurb .header .heading {
+background: transparent;
+margin: 2% 0 2% 0;
+}
+
+.blurb .module {
+right: 1.5%;
+border: 15px solid;
+border-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1127718904253386894/campaign_frame.png) stretch 30;
+}
+
+.blurb ul.required-tags {
+top: 4px;
+left: 2px;
+}
+
+.blurb ul.required-tags li a:hover {
+background-color: rgb(136,107,37);
+border: 4px solid transparent;
+border-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1130632407654084608/menu_mode_border.png) stretch 25;
+transform: scale(2);
+z-index: 1;
+}
+
+.home .header .userstuff,
+.home .header dl.stats,
+.home .header .type {
+clear: right;
+margin-left: 120px;
+padding: .25em;
+}
+
+/*Filters*/
+.filters .expander,
+.filters .expanded .expander {
+font-size: 1.05em;
+}
+
+.filters [type=radio] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+font-size: 1.1em;
+width: 1em;
+height: 1em;
+}
+
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander,
+.filters .expanded,
+.filters .expanded .expander {
+font-family: Stubble, "trade gothic", Verdana, sans-serif;
+}
+
+.filters dl,
+.filters dt,
+.filters .expander:hover,
+.filters .expanded .expander:hover {
+color: white;
+}
+
+.filters .expanded,
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+background: none;
+}
+
+.filters .expander,
+.filters .expanded .expander,
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+background-color: black;
+}
+
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+border: 2px solid #DDDDDDFF;
+}
+
+.filters [type=checkbox]:hover + .indicator:before,
+.filters [type=radio]:hover + .indicator:before,
+.filters .exclude [type=checkbox]:checked:hover,
+.filters .exclude [type=checkbox]:hover + .indicator:before {
+border: 2px solid white;
+}
+
+.filters .expanded {
+border: none;
+}
+
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+border-radius: 3px;
+}
+
+.filters .expander:hover,
+.filters .expanded .expander:hover,
+.filters [type=checkbox]:hover + .indicator:before,
+.filters [type=radio]:hover + .indicator:before,
+.filters .exclude [type=checkbox]:checked:hover,
+.filters .exclude [type=checkbox]:hover + .indicator:before {
+box-shadow: 0px 0px 3px white;
+}
+
+.filters fieldset,
+.filters .expander,
+.filters .expanded .expander,
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+padding: 0px;
+}
+
+.filters dl,
+.filters dt {
+min-width: auto;
+padding-left: .2em;
+}
+
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+vertical-align: -0.125em;
+}
+
+.filters dl {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1143977842938499145/image.png);
+background-size: contain;
+}
+
+.filters .expander,
+.filters .expanded .expander {
+border: 2px solid red;
+border-radius: 5px;
+margin-top: 5px;
+background-image: 
+url(https://cdn.discordapp.com/attachments/991873892903833620/1129775623397703731/ui_bloodbutton_focus.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: #DDDDDDFF;
+}
+
+form dt {
+border-bottom: none;
+}
+
+.filters .expander:hover,
+.filters .expanded .expander:hover {
+text-shadow: 0 0 2px white;
+}
+
+.filters .expander::before {
+content: "➙";
+}
+
+.filters .expanded .expander::before {
+content: "➘";
+}
+
+.filters [type=radio] + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before {
+content: "";
+}
+
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before {
+content: "✔";
+border: 2px solid #8ed639;
+color: #8ed639;
+}
+
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+content: "🗙";
+color: red;
+}
+
+/*Checkbox*/
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover,
+p input,
+p input:checked {
+width: 1em;
+height: 1em;
+font-size: 1.1em;
+}
+
+input[type=radio],
+input[type=checkbox],
+p input,
+.actions input[type=checkbox],
+label.action input[type=checkbox],
+p input:checked,
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+p input:checked:hover,
+input[type=checkbox]:checked:hover,
+input[type=radio]:checked:hover,
+.actions input[type=checkbox]:checked:hover,
+label.action input[type=checkbox]:checked:hover,
+p input:hover,
+input[type=checkbox]:hover,
+input[type=radio]:hover,
+.actions input[type=checkbox]:hover,
+label.action input:hover {
+background: none;
+background-color: black;
+}
+
+input[type=radio],
+input[type=checkbox],
+p input,
+.actions input[type=checkbox],
+label.action input[type=checkbox] {
+border-radius: 3px;
+border: 2px solid #DDDDDDFF;
+}
+
+p input:checked,
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked {
+border: 2px solid #8ed639;
+}
+
+p input:checked,
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+input[type=radio]:hover,
+.actions input[type=checkbox]:hover,
+label.action input:hover,
+p input:checked:hover,
+input[type=checkbox]:checked:hover,
+input[type=radio]:checked:hover,
+.actions input[type=checkbox]:checked:hover,
+label.action input[type=checkbox]:checked:hover,
+p input:hover {
+box-shadow: 0 0 3px white;
+}
+
+p input:checked::before,
+input[type=checkbox]:checked::before,
+input[type=radio]:checked::before,
+.actions input[type=checkbox]:checked::before,
+label.action input[type=checkbox]:checked::before {
+background: none;
+content: "✔";
+color: #8ed639;
+position:absolute;
+height: .75em;
+line-height:1em;
+}
+
+p input:hover,
+input[type=checkbox]:hover,
+input[type=radio]:hover,
+.actions input[type=checkbox]:hover,
+label.action input:hover {
+border: 2px solid white;
+}
+
+.actions input[type="checkbox"]{
+-webkit-appearance: checkbox;
+-moz-appearance: checkbox;
+}
+
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+display: inline-block;
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+/*Pages*/
+#outer .pagination,
+#outer .pagination li a {
+font-family: future rot, stubble, "trade gothic", verdana, sans-serif;
+color: #DDDDDDFF;
+background-color: black;
+}
+
+#outer .pagination li a:visited {
+color: red;
+}
+
+#outer .pagination .current,
+#outer .pagination .current:visited,
+#outer .pagination li a:hover {
+color: white;
+box-shadow: 0 0 3px white;
+text-shadow: 0 0 2px white;
+}
+
+.pagination li:nth-child(5) span {
+background-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1131773245268430878/4_splash_transparent_no_number.png);
+background-size: contain;
+}
+
+/*buttons*/
+button,
+input[type=submit],
+.actions,
+.actions a,
+.actions input,
+.actions li a,
+.actions li input,
+.actions li input[type=submit],
+.actions li .current,
+.actions li label,
+input[type=file],
+input.number,
+input:focus {
+font-size: 1.1em;
+}
+
+button,
+a,
+a:link,
+a:visited,
+li::marker,
+.draggable,
+.droppable,
+input[type=file],
+input.number,
+input[type=submit],
+input[type=submit]:hover {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+button,
+.actions,
+a,
+a:link,
+.action,
+.actions a,
+.actions a:link,
+.actions input,
+.actions label,
+label.action,
+input[type="submit"],
+.notice a,
+.announcement a,
+.event .userstuff,
+.event .userstuff a,
+li::marker,
+.draggable,
+.droppable,
+legend .action:link {
+color: #DDDDDDFF;
+}
+
+button:hover,
+.actions:hover,
+a:hover,
+a .link:hover,
+a:visited:hover,
+.action:hover,
+.action:focus,
+.actions a:hover,
+.actions a:focus,
+.actions input:hover,
+.actions input:focus,
+.actions label:hover,
+label.action:hover,
+.notice a:link,
+.notice a:hover,
+.announcement a:link,
+.announcement a:hover,
+.event .userstuff a:link,
+.event .userstuff a:hover,
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited,
+input[type=file]:hover,
+input.number,
+input[type=submit]:hover,
+legend .action:hover {
+color: white;
+}
+
+button:visited,
+a:visited,
+a .link:visited,
+.actions a:visited,
+.event .userstuff a:visited,
+.notice a:visited,
+.announcement a:visited {
+color: #ff0000;
+}
+
+button,
+.statistics .index li:nth-of-type(even),
+a:visited:hover,
+.action,
+.action:link,
+.action:hover,
+.action:focus,
+.actions label,
+.actions input,
+.actions input:visited,
+.actions a,
+.actions a:link,
+.actions a:hover,
+.actions a:focus,
+.current,
+.ui-sortable li,
+.ui-sortable li:hover,
+tr:hover,
+#outer .current,
+label.action:hover,
+.event .userstuff,
+.event .userstuff a,
+.event .userstuff a:link,
+.event .userstuff a:visited,
+input[type=submit],
+input[type=file],
+input.number {
+background-color: black;
+}
+
+.actions input,
+.actions a,
+.actions a:link,
+.actions a:visited,
+.action,
+.action:link,
+button,
+.current,
+.actions label,
+input[type="submit"],
+input[type=file],
+input.number,
+span.delete {
+border: 2px solid #DDDDDDFF;
+}
+
+.actions input:hover,
+.actions input:focus,
+.actions a:visited:hover,
+.actions a:link:hover,
+.actions a:focus,
+.actions a:active,
+.action:hover,
+.action:focus,
+button:hover,
+.current,
+.current a:visited,
+.actions label:hover,
+input[type=file],
+input.number,
+input[type=submit]:hover,
+a.current,
+#outer .current,
+#header .current,
+#header .primary .menu .current,
+.ui-sortable li:hover,
+label.action:hover,
+span.delete:hover {
+border: 2px solid white;
+box-shadow: 0 0 3px white;
+text-shadow: 0 0 2px white;
+}
+
+.actions input,
+input[type=file],
+input[type="submit"],
+input.number,
+p.actions {
+border-radius: 5px;
+}
+
+span.delete {
+border-radius: 3px;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label,
+.actions input,
+.dashboard .listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type="submit"],
+button,
+.current,
+.actions label,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu {
+background-image: none;
+}
+
+.actions input,
+.action,
+.action:link,
+button,
+.current,
+.actions label,
+input[type="submit"],
+#header .primary,
+#main li.blurb,
+.wrapper,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form,
+#header .primary,
+form .notice,
+form ul.notes,
+span.question,
+form dl,
+dd.hideme,
+form blockquote.userstuff,
+.delete a,
+span.delete,
+#header ul.primary {
+box-shadow: none;
+}
+
+input[type="submit"],
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label,
+.actions input {
+-webkit-appearance: none;
+}
+
+.action a {
+color: #DDDDDDFF !important;
+border: none !important;
+}
+
+.action a:hover {
+color: white !important;
+}
+
+
+label.action {
+padding:.25em .25em;
+}
+
+p.actions {
+padding: 0;
+}
+
+/*Search and field input*/
+.toggled form,
+.dynamic form,
+textarea,
+textarea:focus,
+input,
+form.search input[type=text],
+.autocomplete input {
+font-size: 1.1em;
+}
+
+input,
+.toggled form,
+.dynamic form,
+#site_search,
+#search .button,
+form.search input[type=text],
+form dd,
+.autocomplete input {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+}
+
+textarea,
+textarea.large,
+textarea:focus {
+font-family: "trade gothic", verdana, sans-serif;
+}
+
+input,
+textarea,
+textarea.large,
+textarea:focus
+.toggled form,
+.dynamic form,
+#search .button:hover,
+#search .button:focus,
+form.search input[type=text],
+form dd,
+.autocomplete input {
+color: white !important;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+textarea.large,
+#search .button,
+#work_search_query,
+form.search input[type=text],
+form.search input[type=text]:focus,
+.autocomplete input {
+background-color: black;
+}
+
+.toggled form,
+.dynamic form {
+background-image: none;
+background-color: #0000005A;
+}
+
+input,
+input.LV_invalid_field,
+form.search input[type=text],
+form dl,
+dd.hideme,
+form blockquote.userstuff,
+form dl,
+dl.meta {
+border: 2px solid red;
+}
+
+input:hover,
+input:focus,
+.autocomplete input:focus,
+.autocomplete input:hover,
+#search .button:hover,
+#search .button:focus,
+textarea:focus,
+input.LV_invalid_field:hover {
+border: 2px solid white;
+}
+
+input,
+textarea,
+textarea:focus,
+#search .button,
+form.search input[type=text],
+.autocomplete input {
+border-radius: 5px;
+}
+
+input,
+textarea {
+box-shadow: none;
+}
+
+input,
+.autocomplete input,
+#work_search_query,
+textarea:focus,
+form.search input[type=text]:focus {
+outline: none;
+}
+
+#search .button,
+textarea {
+color: #DDDDDDFF;
+border: 2px solid #DDDDDDFF !important;
+}
+
+input:hover,
+#search .button:hover,
+#search .button:focus {
+text-shadow: 0 0 2px white;
+box-shadow: 0 0 3px white;
+}
+
+input {
+background-image: none;
+}
+
+textarea {
+-webkit-appearance: none;
+}
+
+/*Help and guides*/
+#modal .userstuff p,
+#modal .userstuff dl,
+#modal .footer,
+#modal .userstuff li,
+#modal .userstuff ol ul li {
+font-size: 1.2em;
+}
+
+#modal .userstuff h4,
+#modal h2,
+#modal h3,
+#modal .userstuff dt,
+#modal li::marker {
+font-size: 1.75em;
+}
+
+#modal dd#headings li,
+#modal dd#emphasis li {
+font-size: initial;
+}
+
+#modal,
+#modal.tall .content,
+#modal .content,
+#modal .userstuff p,
+#modal .userstuff dl,
+#modal .footer,
+#modal a:link,
+#modal a:visited,
+#modal .userstuff dt code,
+.action.modal-closer,
+#modal .footer .action.modal-closer {
+font-family: helvetica,sans-serif;
+}
+
+#modal,
+#modal.tall .content,
+#modal .content,
+#modal .userstuff p,
+#modal .userstuff dl,
+#modal .userstuff li,
+#modal .footer,
+#modal code,
+#modal li::marker,
+#headings > ul:nth-child(1) > li:nth-child(2) > h2:nth-child(1) {
+color: black;
+}
+
+#modal a:link,
+#modal a:visited {
+color: white;
+}
+
+dl#symbols-key dt,
+#modal .userstuff dl {
+position: relative;
+}
+
+#modal .userstuff p,
+#modal .userstuff dl,
+#modal .footer,
+#modal code {
+font-weight: bold;
+}
+
+#modal.tall,
+#modal {
+border: 2px solid white;
+}
+
+#modal .content {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1136515296149131354/ceda_flyer_recreation_2.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: local;
+background-position: center;
+}
+
+#modal .footer {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1136522590136053780/ceda_banner_orange.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center;
+}
+
+#modal .userstuff h4,
+#modal h2,
+#modal h3,
+#modal .userstuff dt,
+#modal .userstuff dt code {
+line-height: 1.5em;
+text-transform: uppercase;
+font-family: haettenschweiler, helvetica, sans-serif;
+letter-spacing: .5px;
+}
+
+#modal h2,
+#modal .userstuff dt,
+#modal.tall .content > h4:nth-child(1),
+.action.modal-closer,
+#modal .footer .action.modal-closer,
+dl#symbols-key dt img {
+background-color: black;
+}
+
+#modal .userstuff p,
+a.modal.help:hover,
+#modal code,
+dl#symbols-key dt,
+#headings > ul:nth-child(1) > li:nth-child(2) > h2:nth-child(1) {
+background-color: transparent;
+}
+
+#modal h2,
+#modal .userstuff dt,
+#modal .userstuff dt code,
+#modal.tall .content > h4:nth-child(1),
+.action.modal-closer,
+#modal .footer .action.modal-closer {
+color: #E8701CFF;
+}
+
+#modal .userstuff dt {
+display: inline-block;
+padding: 2px 5px;
+font-weight: normal;
+}
+
+#modal .userstuff h4,
+#modal h2 {
+display: block;
+text-align: center;
+}
+
+#modal.tall .content > h4:nth-child(1),
+#modal h2 {
+font-size: 2.3em;
+max-width: 60%;
+margin: auto;
+padding: 2px 2px;
+}
+
+dl#symbols-key dt {
+background: none !important;
+top: .2em;
+right: .1em;
+}
+
+dl#symbols-key dt img {
+padding: .1em;
+}
+
+#modal .userstuff dl {
+width: auto;
+}
+
+/*About and FAQ pages*/
+.faq h3.heading {
+font-size: 1.5em;
+}
+
+#faq h4.heading {
+padding-top: 1.5em;
+font-size: 1.25em;
+border-bottom: 2px solid white;
+}
+
+#faq h5 {
+padding-top: 1em;
+padding-bottom: .1em;
+}
+
+#faq h5::before {
+content: "☣";
+margin-right: .25em;
+}
+
+.feedbacks h3 {
+padding:.25em;
+border-radius: 5px;
+}
+
+/*Code page*/
+code,
+pre,
+textarea#skin_css {
+font-family: "Courier New", Courier, Monospace;
+font-size: 1.05em;
+padding: 1em 0.5em;
+color: white;
+}
+
+pre,
+textarea#skin_css {
+background-color: #000000C4;
+}
+
+.css h3.heading {
+display: inline;
+}
+
+/*Definitions and abbreviations*/
+dfn,
+abbr,
+acronym {
+cursor:help;
+color: #4b66ff;
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+dfn:hover,
+abbr:hover,
+acronym:hover {
+color: #b2b2ff;
+text-shadow: 0 0 2px #b2b2ff;
+}
+
+/*Announcement, error, alert, tip*/
+.tip,
+.footnote {
+font-size: 1em;
+}
+
+.announcement,
+.notice,
+.comment_notice,
+ul.notes,
+.alert.flash,
+.required,
+.required .autocomplete,
+.autocomplete .notice,
+#header h2,
+.caution,
+.error,
+.comment_error,
+.nominations .rejected,
+.alert .userstuff,
+dt.required,
+.LV_invalid,
+input#work_title:focus,
+p.footnote,
+.tip,
+.search [role="tooltip"] {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+background-color: #000000C4;
+padding-left: .5em;
+padding-top: 0;
+padding-right: .5em;
+box-shadow: none;
+}
+
+.announcement::before,
+.notice::before,
+.comment_notice::before,
+ul.notes::before,
+.alert.flash::before,
+.autocomplete .notice::before,
+.LV_invalid::before,
+p.footnote::before,
+dt.required::before,
+p.required.notice::before,
+.caution::before,
+.error::before,
+.comment_error::before,
+.nominations .rejected::before,
+.alert .userstuff::before,
+.tip::before {
+border: none;
+}
+
+.announcement,
+.notice,
+.comment_notice,
+ul.notes,
+.alert.flash,
+.required,
+.required .autocomplete,
+.autocomplete .notice,
+#header h2,
+.caution,
+.error,
+.comment_error,
+.nominations .rejected,
+.alert .userstuff,
+dt.required,
+.LV_invalid,
+p.footnote,
+.tip {
+color: #FF9E47FF;
+}
+
+.announcement::before,
+.notice::before,
+.comment_notice::before,
+ul.notes::before,
+.alert.flash::before,
+.autocomplete .notice::before,
+.LV_invalid::before,
+p.footnote::before,
+.tip::before {
+content: "";
+background-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1131827660826366003/image.png);
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+width: 1.5em;
+height: 1.5em;
+top: .4em;
+left: 0;
+}
+
+dt.required::before,
+p.required.notice::before,
+.caution::before,
+.error::before,
+.comment_error::before,
+.nominations .rejected::before,
+.alert .userstuff::before {
+content: "";
+background-image: url(https://cdn.discordapp.com/attachments/991873892903833620/1131827661119963146/image.png);
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+width: 1.5em;
+height: 1.5em;
+left: .2em;
+}
+
+.announcement,
+.notice,
+.comment_notice,
+ul.notes,
+.alert.flash,
+.required,
+.required .autocomplete,
+.autocomplete .notice,
+#header h2,
+.caution,
+.error,
+.comment_error,
+.nominations .rejected,
+.alert .userstuff,
+dt.required,
+.LV_invalid,
+input#work_title:focus,
+p.footnote,
+.announcement::before,
+.notice::before,
+.comment_notice::before,
+ul.notes::before,
+.alert.flash::before,
+.autocomplete .notice::before,
+.LV_invalid::before,
+p.footnote::before,
+dt.required::before,
+p.required.notice::before,
+.caution::before,
+.error::before,
+.comment_error::before,
+.nominations .rejected::before,
+.alert .userstuff::before {
+display: inline-block;
+}
+
+.LV_invalid {
+border: 1px solid white;
+display: block;
+}
+
+.autocomplete .notice {
+margin-bottom: 0;
+}
+
+dt.required::before {
+top: .35em;
+}
+
+.search input:focus+[role="tooltip"] {
+left: 1em;
+right: 1em;
+top: 2em;
+}
+
+
+span.offered.requested {
+color: rgb(200,200,200);
+}
+
+span.offered,
+.replied,
+.nominations .approved {
+color: green;
+}
+
+span.requested,
+.nominations .rejected {
+color: red;
+}
+
+/*General dropdown*/
+.dropdown,
+.autocomplete div.dropdown ul,
+.autocomplete .dropdown ul li,
+.autocomplete .dropdown ul li:hover,
+select:hover,
+.heading select,
+li select:hover,
+li.selected {
+color: white;
+}
+
+select,
+li select,
+select:focus,
+li select:focus {
+color: #C0C0C0FF;
+}
+
+.dropdown,
+select,
+li select,
+.heading select,
+select:focus {
+font-size: 1.1em;
+}
+
+.dropdown,
+select,
+.heading select,
+li select,
+select:focus {
+font-family: stubble, "trade gothic", Verdana, sans-serif;
+}
+
+.autocomplete div.dropdown ul,
+.autocomplete .dropdown ul li:hover,
+select,
+.heading select,
+li select,
+li.selected,
+select:focus {
+background-color: black;
+}
+
+select,
+.heading select,
+li select {
+border: 2px solid red;
+border-radius: 5px;
+}
+
+.autocomplete .dropdown ul li:hover,
+li.selected {
+box-shadow: 0 0 3px white;
+text-shadow: 0 0 2px white;
+}
+
+/*General fieldset and listbox*/
+.listbox .index a:link,
+.listbox .index a {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+}
+
+dd.category fieldset li,
+.listbox .index a:link,
+.listbox .index a {
+color: #DDDDDDFF;
+}
+
+.listbox .heading,
+.listbox .index a:hover {
+color: white;
+}
+
+.listbox .index a:visited {
+color: #ff0000;
+}
+
+fieldset,
+fieldset fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+fieldset fieldset.listbox,
+.listbox .heading,
+.listbox .index {
+background-color: #000000C4;
+}
+
+dd fieldset {
+background-color: black;
+}
+
+fieldset,
+fieldset fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+fieldset fieldset.listbox,
+.listbox {
+border: 2px solid red;
+}
+
+fieldset,
+fieldset fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+fieldset fieldset.listbox {
+border-radius: 5px;
+}
+
+fieldset,
+fieldset fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+fieldset fieldset.listbox,
+.listbox .index,
+.listbox .index a,
+.group.listbox {
+box-shadow: none;
+}
+
+.listbox .heading {
+display: block;
+}
+
+.listbox .index a:hover {
+text-shadow: 0 0 2px white;
+}
+
+/*Titles*/
+h1,
+h2 {
+font-family: Future Rot, stubble, "trade gothic", Verdana, sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6,
+.userstuff h2,
+.heading {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+}
+
+h4.viewed,
+h5,
+h6 {
+font-size: 1.1em;
+}
+
+#main h2.heading {
+font-size: 1.5em;
+}
+
+h2.heading,
+.userstuff h2 {
+color: white;
+}
+
+/*General texts*/
+p a,
+p.type,
+p.note,
+.userstuff li a,
+.meta dd,
+.system .userstuff,
+.qtip-content,
+kbd,
+samp,
+.secondary,
+strong,
+b {
+font-size: 1.1em;
+}
+
+blockquote,
+body,
+p,
+a,
+.userstuff,
+.userstuff li a,
+.docs .userstuff ul {
+font-size: 1.05em;
+}
+
+#main  {
+font-size: 1.025em;
+}
+
+#main,
+.secondary,
+.datetime,
+a.work,
+span.symbol,
+.userstuff li a {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+blockquote,
+body,
+p,
+.userstuff,
+.docs .userstuff ul {
+font-family: "trade gothic", verdana, sans-serif;
+}
+
+strong,
+b {
+font-family: stubble, verdana, sans-serif;
+}
+
+blockquote,
+body,
+p,
+.userstuff p,
+.userstuff li,
+.userstuff li a:hover,
+.docs .userstuff ul {
+color: white;
+}
+
+.userstuff li a {
+color: #DDDDDDFF;
+}
+
+body,
+.userstuff,
+.docs .userstuff ul,
+.notes,
+p.note {
+background-color: #000000C4;
+}
+
+.secondary {
+background-color: rgb(67,81,29)
+border-color: red;
+}
+
+p.note {
+width: fit-content;
+}
+
+::selection {
+background: #404040FF;
+color: #FF9E47FF;
+}
+
+/*Misc*/
+form.verbose legend {
+background-color: #000000C4;
+}
+
+.own,
+.unread,
+.child,
+.unwrangled,
+.unreviewed,
+tbody tr,
+.wrapper,
+form dl,
+dl.meta,
+li.post.group,
+.faq .example,
+.guideline .example,
+th,
+form.verbose legend {
+border-color: #C02100FF;
+}
+
+form.verbose legend,
+.verbose form legend {
+box-shadow: none;
+}
+
+span.disabled {
+display: none;
+}
