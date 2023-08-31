@@ -1048,15 +1048,15 @@ a.tag[href*="/smoker%20(left%204%20dead)" i] {
 color: rgb(114,166,123);
 }
 
-a.tag[href*="/spitter%20(left%204%20dead)" i]:not(a.tag[href*=“spitter*s*” i]) {
+a.tag[href*="/spitter%20(left%204%20dead)" i] {
 color: rgb(192,197,43);
 }
 
-a.tag[href*="/tank%20(left%204%20dead)" i]:not(a.tag[href*=“tank*s*” i]) {
+a.tag[href*="/tank%20(left%204%20dead)" i] {
 color: rgb(159,166,115);
 }
 
-a.tag[href*="/witch%20(left%204%20dead)" i]:not(a.tag[href*=“witch*s*” i]) {
+a.tag[href*="/witch%20(left%204%20dead)" i] {
 color: rgb(166,115,164);
 }
 
