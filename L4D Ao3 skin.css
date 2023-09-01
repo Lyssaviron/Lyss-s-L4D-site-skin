@@ -835,10 +835,6 @@ dd.category fieldset li:hover {
 color: white;
 }
 
-.draft {
-background-color: transparent;
-}
-
 fieldset.warnings {
 background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1140770321872457849/s_panel_background_glow.png);
 background-repeat: no-repeat;
@@ -846,6 +842,16 @@ background-size: 100% 100%;
 background-origin: border-box;
 background-color: black;
 border: none;
+}
+
+.draft {
+background-color: transparent;
+border-radius: 5px;
+}
+
+.draft,
+.draft .wrapper {
+border-color: rgb(192,33,0);
 }
 
 select#work_rating_string,
@@ -859,16 +865,6 @@ background-size: cover;
 
 select#work_rating_string {
 background-size: 100% 100%;
-}
-
-.draft {
-background-color: rgb(104,116,104);
-border-radius: 5px;
-}
-
-.draft,
-.draft .wrapper {
-border-color: rgb(192,33,0);
 }
 
 /*Browse pages*/
