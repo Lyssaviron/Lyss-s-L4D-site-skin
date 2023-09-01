@@ -573,7 +573,8 @@ p.kudos {
 background-color: #000000C4;
 }
 
-#workskin .module {
+#workskin .module,
+#workskin div.userstuff {
 background-color: #000000DC;
 }
 
@@ -832,6 +833,10 @@ color: #DDDDDDFF;
 fieldset.warnings li:hover,
 dd.category fieldset li:hover {
 color: white;
+}
+
+.draft {
+background-color: transparent;
 }
 
 fieldset.warnings {
