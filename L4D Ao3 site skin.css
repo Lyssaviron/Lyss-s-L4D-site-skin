@@ -1002,12 +1002,12 @@ a.tag[href*="/william%20overbeck" i] {
 color: rgb(71,117,56);
 }
 
-a.tag[href*="/louis%20(left%204%20dead)" i] {
-color: rgb(225,225,225);
-}
-
 a.tag[href*="/francis%20(left%204%20dead)" i] {
 color: rgb(130,147,148);
+}
+
+a.tag[href*="/louis%20(left%204%20dead)" i] {
+color: rgb(225,225,225);
 }
 
 a.tag[href*="/zoey%20(left%204%20dead)" i] {
@@ -1015,7 +1015,7 @@ color: rgb(174,91,91);
 }
 
 a.tag[href*="/coach%20(left%204%20dead)" i] {
-color: rgb(112,75,1250);
+color: rgb(112,75,125);
 }
 
 a.tag[href*="/ellis%20(left%204%20dead)" i] {
