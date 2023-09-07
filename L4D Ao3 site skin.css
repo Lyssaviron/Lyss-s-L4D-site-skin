@@ -2613,6 +2613,7 @@ border-color: #C02100FF;
 form.verbose legend,
 .verbose form legend {
 box-shadow: none;
+background-color: black;
 }
 
 span.disabled {
