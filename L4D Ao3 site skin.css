@@ -2618,8 +2618,3 @@ box-shadow: none;
 span.disabled {
 display: none;
 }
-
-img {
-border: 10px solid;
-border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139996491759501372/campaign_frame.png) stretch 40;
-}
