@@ -373,6 +373,10 @@ background-color: black;
 background-color: #000000C4;
 }
 
+div.user.home.profile .wrapper {
+background-color: #000000DC;
+}
+
 .user .listbox.group {
 background-image:url(https://cdn.discordapp.com/attachments/1136352033574768640/1142328098705113128/image.png);
 background-size: 100% auto;
@@ -486,6 +490,14 @@ margin-top: 3em;
 }
 
 /*User statistics*/
+.comment.thread.count {
+color: white;
+}
+
+dl.statistics.meta.group {
+background: #000000C4;
+}
+
 #main.stats-index h3.heading {
 display: inline-block;
 padding: .25em;
@@ -1875,10 +1887,8 @@ background-color: #0000005A;
 input,
 input.LV_invalid_field,
 form.search input[type=text],
-form dl,
 dd.hideme,
 form blockquote.userstuff,
-form dl,
 dl.meta {
 border: 2px solid red;
 }
@@ -2589,7 +2599,8 @@ color: #FF9E47FF;
 }
 
 /*Misc*/
-form.verbose legend {
+form.verbose legend,
+form dl {
 background-color: #000000C4;
 }
 
