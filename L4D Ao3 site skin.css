@@ -791,7 +791,7 @@ height: 52px;
 }
 
 .thread .thread .comment div.icon::after {
-content: '+50';
+content: '+40';
 color: gold;
 background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1177436106535485492/image.png);
 background-size: contain;
