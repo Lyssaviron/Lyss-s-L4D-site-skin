@@ -790,12 +790,28 @@ max-width: 159%;
 height: 52px;
 }
 
+.thread .thread .comment div.icon::after {
+content: '+50';
+color: gold;
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1177436106535485492/image.png);
+background-size: contain;
+background-position: 0px 3px;
+background-repeat: no-repeat;
+width: 116px;
+max-width: 159%;
+height: 52px;
+}
+
+.thread .thread {
+margin-left: 0;
+}
+
 .comment .icon .visitor {
 background: url(/images/imageset.png) no-repeat -10px -85px;
 }
 
 .comment blockquote {
-margin-left: 16%;
+margin-left: 17%;
 top: 10px;
 padding: 2px;
 line-height: 1.5;
